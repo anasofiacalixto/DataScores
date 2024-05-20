@@ -2,7 +2,7 @@
 
 # InstructPix2Pix: creating choreographic scores from text prompts
 
-This repository contains the code implementation of InstructPix2Pix, an instruction-based image editing model, based on the original [CompVis/stable_diffusion](https://github.com/CompVis/stable-diffusion) repository. This project aims to allow users to provide text instructions to guide image editing tasks, to edit images that will serve as choreographic scores for a performance, for study intent and non commercial use.
+This repository contains the code implementation of InstructPix2Pix, an instruction-based image editing model, based on the original [CompVis/stable_diffusion](https://github.com/CompVis/stable-diffusion) and [Pix2Pix](https://github.com/timothybrooks/instruct-pix2pix) repositories. This project aims to allow users to provide text instructions to guide image editing tasks, to edit images that will serve as choreographic scores for a performance, for study intent and non commercial use.
 
 ## Overview
 

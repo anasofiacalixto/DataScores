@@ -1,26 +1,18 @@
 # DataScores
 
-# InstructPix2Pix: Learning to Follow Image Editing Instructions
+# InstructPix2Pix: creating choreographic scores from text prompts
 
-This repository contains the code implementation of InstructPix2Pix, an instruction-based image editing model, based on the original [CompVis/stable_diffusion](https://github.com/CompVis/stable-diffusion) repository. This project aims to allow users to provide textual instructions to guide image editing tasks, enabling creative and intuitive image transformations.
+This repository contains the code implementation of InstructPix2Pix, an instruction-based image editing model, based on the original [CompVis/stable_diffusion](https://github.com/CompVis/stable-diffusion) repository. This project aims to allow users to provide text instructions to guide image editing tasks, to edit images that will serve as choreographic scores for a performance, for study intent and non commercial use.
 
 ## Overview
 
-InstructPix2Pix is a PyTorch implementation that leverages the power of pre-trained models and text-to-image synthesis techniques to enable users to edit images based on textual prompts. By fine-tuning from an initial Stable Diffusion checkpoint, this model can learn to understand and follow user instructions to generate edited images.
+InstructPix2Pix is a PyTorch implementation that leverages the power of pre-trained models and text-to-image techniques to allow users to edit images based on text prompts. In this case, the images were edited with prompts from a book, in order to create movement scores for the performer to follow.
 
-## Features
+## Usage ideation
 
-- Edit images based on textual instructions.
-- Fine-tune the model for specific editing tasks.
-- Generate high-quality edited images with intuitive prompts.
+- [Ana Sofia Calixto](https://github.com/anasofiacalixto)
 
-## Requirements
+## References and sources
 
-- Python 3.6+
-- PyTorch
-- NumPy
-- Gradio (for interactive editing app)
-
-## Usage
-
-1. **Clone the Repository:**
+- This project uses the pretained model by [Timothy Brooks](https://github.com/timothybrooks/instruct-pix2pix).
+- This project is based on the [Stable Diffusion codebase](https://github.com/CompVis/stable-diffusion).
